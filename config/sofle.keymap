@@ -15,6 +15,10 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+#define LANG_1 LG(LC(N1)) 
+#define LANG_2 LG(LC(N2))
+#define SCREEN LG(LS(N4)) 
+
 / {
     behaviors {
         mmv {
@@ -43,11 +47,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4        &kp N5               &kp UP_ARROW                &kp N6     &kp N7     &kp N8           &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R         &kp T                &kp DOWN_ARROW              &kp Y      &kp U      &kp I            &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A      &kp S         &kp D         &kp F         &kp G                &kp LEFT_ARROW              &kp H      &kp J      &kp K            &kp L            &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V         &kp B                &kp RIGHT_ARROW             &kp N      &kp M      &kp COMMA        &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE             &kp LCTRL     &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp GRAVE      &kp N1     &kp N2         &kp N3     &kp N4        &kp N5                  &kp MOVE_UP                   &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &mo 3
+&mt LALT ESC   &kp Q      &kp W          &kp E      &kp R         &kp T                   &kp MOVE_DOWN                 &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSLH
+&mt LCTRL TAB  &kp A      &kp S          &kp D      &kp F         &kp G                   &kp MOVE_LEFT                 &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
+&kp LSHFT      &kp Z      &kp X          &kp C      &kp V         &kp B                   &kp MOVE_RIGHT                &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
+&kp RCLK                  &kp BACKSPACE  &mo 2      &kp LEFT_GUI  &kp LSHFT  &kp ENTER    &kp LCLK        &kp LEFT_GUI  &kp SPACE  &mo 1      &kp LANG_1  &kp LANG_2
             >;
 
             sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
