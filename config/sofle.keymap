@@ -13,7 +13,8 @@
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
 
-#define LANG_1 LG(LC(N1)) 
+#define LANG_SW LA(SPACE)
+#define LANG_1 LG(LC(N1))
 #define LANG_2 LG(LC(N2))
 #define SCREEN LG(LS(N4))
 #define BT_0 BT_SEL 0
@@ -55,11 +56,11 @@
 
         layer0 {
             bindings = <
-&mt LALT ESC     &kp N1     &kp N2         &kp N3     &kp N4        &kp N5                  &mmv MOVE_UP                   &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &mo 3
-&mt LCTRL GRAVE  &kp Q      &kp W          &kp E      &kp R         &kp T                   &mmv MOVE_DOWN                 &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
-&mt LSHFT TAB    &kp A      &kp S          &kp D      &kp F         &kp G                   &mmv MOVE_LEFT                 &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
-&lt 3 SPACE      &kp Z      &kp X          &kp C      &kp V         &kp B                   &mmv MOVE_RIGHT                &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
-&mkp RCLK                   &kp BACKSPACE  &mo 2      &kp LEFT_GUI  &kp LSHFT  &kp ENTER    &mkp LCLK        &kp LEFT_GUI  &kp SPACE  &mo 1      &kp ENTER   &kp BACKSPACE
+&mt LALT ESC     &kp N1     &kp N2         &kp N3     &kp N4        &kp N5                  &mmv MOVE_UP               &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &lt 3 BSPC
+&mt LCTRL GRAVE  &kp Q      &kp W          &kp E      &kp R         &kp T                   &mmv MOVE_DOWN             &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
+&mt LSHFT TAB    &kp A      &kp S          &kp D      &kp F         &kp G                   &mmv MOVE_LEFT             &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
+&lt 3 SPACE      &kp Z      &kp X          &kp C      &kp V         &kp B                   &mmv MOVE_RIGHT            &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
+&mkp RCLK                   &kp BACKSPACE  &mo 2      &kp LEFT_GUI  &kp LSHFT  &kp ENTER    &mkp LCLK        &kp RALT  &kp SPACE  &mo 1      &kp ENTER   &kp RSHFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -81,11 +82,11 @@
 
         layer_2 {
             bindings = <
-&trans     &kp C_PREV  &kp C_PP  &kp C_NEXT &trans       &sys_reset           &trans            &trans   &trans       &trans   &trans   &trans         &trans
-&kp DOT    &kp N1      &kp N2    &kp N3     &kp N4       &kp N5               &trans            &trans   &trans       &trans   &trans   &trans         &trans
-&kp COMMA  &kp N6      &kp N7    &kp N8     &kp N9       &kp N0               &trans            &trans   &kp LA(LEFT) &trans   &trans   &kp LA(RIGHT)  &trans
-&trans     &kp LEFT    &kp UP    &kp DOWN   &kp RIGHT    &trans               &trans            &trans   &trans       &trans   &trans   &trans         &trans
-&trans                 &trans    &trans     &trans       &trans      &trans   &trans   &trans   &trans   &trans       &trans   &trans
+&trans     &kp C_PREV  &kp C_PP  &kp C_NEXT &trans       &sys_reset           &trans            &trans       &trans       &trans   &trans   &trans         &trans
+&kp DOT    &kp N1      &kp N2    &kp N3     &kp N4       &kp N5               &trans            &trans       &trans       &trans   &trans   &trans         &trans
+&kp COMMA  &kp N6      &kp N7    &kp N8     &kp N9       &kp N0               &trans            &trans       &kp LA(LEFT) &trans   &trans   &kp LA(RIGHT)  &trans
+&trans     &kp LEFT    &kp UP    &kp DOWN   &kp RIGHT    &trans               &trans            &trans       &trans       &trans   &trans   &trans         &trans
+&trans                 &trans    &trans     &trans       &trans      &trans   &trans   &trans   &kp LANG_SW  &trans       &trans   &trans
             >;
 
             display-name = "raise";
