@@ -75,7 +75,7 @@
             bindings = <
 &sys_reset  &trans        &trans          &trans        &trans        &trans                  &trans  &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
 &trans      &kp N1        &kp N2          &kp N3        &kp N4        &kp N5                  &trans  &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans      &kp N6        &kp N7          &kp N8        &kp N9        &kp N10                 &trans  &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans      &kp N6        &kp N7          &kp N8        &kp N9        &kp N0                  &trans  &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans      &kp LEFT      &kp UP          &kp DOWN      &kp RIGHT     &kp SCREEN              &trans  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans                    &trans          &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans      &trans
             >;
