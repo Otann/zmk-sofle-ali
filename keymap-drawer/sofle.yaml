@@ -53,13 +53,13 @@ layers:
   - {t: ., s: '>'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - RCLK
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - lower
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LCLK
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - lower
