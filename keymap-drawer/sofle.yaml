@@ -91,7 +91,7 @@ layers:
   - +
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
@@ -156,7 +156,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ $$mdi:backspace-reverse-outline$$
+  - {t: 'Alt+ $$mdi:backspace$$', type: backspace}
   - {t: ',', s: <}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
