@@ -17,7 +17,10 @@
 
 #define LANG_1 LG(LC(N1)) 
 #define LANG_2 LG(LC(N2))
-#define SCREEN LG(LS(N4)) 
+#define SCREEN LG(LS(N4))
+#define BT_0 BT_SEL 0
+#define BT_1 BT_SEL 1
+#define BT_2 BT_SEL 2
 
 / {
     behaviors {
@@ -60,10 +63,10 @@
 
         layer_1 {
             bindings = <
-&trans   &trans     &trans     &trans     &trans     &trans            &trans     &trans    &trans     &trans       &trans      &trans     &trans
-&trans   &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp LT            &trans     &kp GT    &kp UNDER  &kp PLUS     &kp MINUS   &kp EQUAL  &kp DEL
-&trans   &kp CARET  &kp AMPS   &kp STAR   &kp PRCNT  &kp LPAR          &trans     &kp RPAR  &kp LEFT   &kp DOWN     &kp UP      &kp RIGHT  &kp GRAVE
-&trans   &kp SLASH  &kp TILDE  &kp PIPE2  &kp QMARK  &kp LBKT          &trans     &kp RBKT  &trans     &kp LBRC     &kp RBKT    &kp LBKT   &kp RBKT
+&trans   &trans     &trans     &trans     &trans     &trans            &trans               &trans    &trans     &trans       &trans      &trans     &trans
+&trans   &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp LT            &trans               &kp GT    &kp UNDER  &kp PLUS     &kp MINUS   &kp EQUAL  &kp DEL
+&trans   &kp CARET  &kp AMPS   &kp STAR   &kp PRCNT  &kp LPAR          &trans               &kp RPAR  &kp LEFT   &kp DOWN     &kp UP      &kp RIGHT  &kp GRAVE
+&trans   &kp SLASH  &kp TILDE  &kp PIPE2  &kp QMARK  &kp LBKT          &trans               &kp RBKT  &trans     &kp LBRC     &kp RBKT    &kp LBKT   &kp RBKT
 &trans              &trans     &trans     &trans     &trans   &trans   &trans     &trans    &trans     &trans       &trans      &trans
             >;
 
@@ -73,11 +76,11 @@
 
         layer_2 {
             bindings = <
-&sys_reset   &trans     &trans   &trans     &trans     &trans               &trans   &trans   &trans   &trans   &trans   &trans   &trans
-&trans       &kp N1     &kp N2   &kp N3     &kp N4     &kp N5               &trans   &kp N6   &kp N7   &kp N8   &trans   &trans   &trans
-&trans       &kp N6     &kp N7   &kp N8     &kp N9     &kp N0               &trans   &kp N4   &kp N5   &kp N6   &kp N0   &trans   &trans
-&trans       &kp LEFT   &kp UP   &kp DOWN   &kp RIGHT  &kp SCREEN           &trans   &kp N1   &kp N2   &kp N3   &trans   &trans   &trans
-&trans                  &trans   &trans     &trans     &trans      &trans   &trans   &trans   &trans   &trans   &trans   &trans
+&sys_reset   &trans     &trans     &trans     &trans       &trans               &trans            &trans   &trans   &trans   &trans   &trans   &trans
+&trans       &kp N1     &kp N2     &kp N3     &kp N4       &kp N5               &trans            &kp N6   &kp N7   &kp N8   &trans   &trans   &trans
+&trans       &kp N6     &kp N7     &kp N8     &kp N9       &kp N0               &trans            &kp N4   &kp N5   &kp N6   &kp N0   &trans   &trans
+&trans       &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT    &kp SCREEN           &trans            &kp N1   &kp N2   &kp N3   &trans   &trans   &trans
+&trans                  &trans     &trans     &trans       &trans      &trans   &trans   &trans   &trans   &trans   &trans   &trans
             >;
 
             display-name = "lower";
@@ -86,15 +89,16 @@
 
         layer_3 {
             bindings = <
-&trans   &bt BT_SEL 0   &bt BT_SEL 0   &bt BT_SEL 0   &bt BT_CLR   &bt BT_DISC          &rgb_ug RGB_TOG   &kp C_PREV    &kp C_PP    &kp C_NEXT    &trans   &kp C_BRI_INC   &trans
-&trans   &kp F1         &kp F2         &kp F3         &kp F4       &kp F5               &rgb_ug RGB_BRI   &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans   &kp C_BRI_DEC   &trans
-&trans   &kp F6         &kp F7         &kp F8         &kp F9       &kp F10              &rgb_ug RGB_BRD   &trans        &trans      &trans        &trans   &trans          &trans
-&trans   &kp F11        &kp F12        &trans         &trans       &trans               &trans            &trans        &trans      &trans        &trans   &trans          &trans
-&trans                  &trans         &trans         &trans       &trans      &trans   &trans            &trans        &trans      &trans        &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "FN";
             sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
-        };        
+        };       
+  
     };
 };
