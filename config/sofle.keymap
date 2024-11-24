@@ -57,7 +57,7 @@
 &kp RCLK                  &kp BACKSPACE  &mo 2      &kp LEFT_GUI  &kp LSHFT  &kp ENTER    &kp LCLK        &kp LEFT_GUI  &kp SPACE  &mo 1      &kp LANG_1  &kp LANG_2
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder>;
             display-name = "base";
         };
 
@@ -71,7 +71,7 @@
             >;
 
             display-name = "lower";
-            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -84,7 +84,7 @@
             >;
 
             display-name = "lower";
-            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -97,7 +97,7 @@
             >;
 
             display-name = "FN";
-            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };       
   
     };
