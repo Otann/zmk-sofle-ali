@@ -70,7 +70,7 @@
 
         layer_1 {
             bindings = <
-&trans   &trans     &trans     &trans     &trans     &trans            &trans               &trans    &trans     &kp LANG_1   &kp LANG_2  &trans     &trans
+&trans   &trans     &trans     &trans     &trans     &trans            &trans               &trans    &trans     &kp LANG_1   &kp LANG_2  &trans     &sys_reset
 &trans   &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp LT            &trans               &kp GT    &kp UNDER  &kp PLUS     &kp MINUS   &kp EQUAL  &kp DEL
 &trans   &kp CARET  &kp AMPS   &kp STAR   &kp PRCNT  &kp LPAR          &trans               &kp RPAR  &kp LEFT   &kp DOWN     &kp UP      &kp RIGHT  &kp GRAVE
 &trans   &kp SLASH  &kp TILDE  &kp PIPE2  &kp QMARK  &kp LBKT          &trans               &kp RBKT  &trans     &kp LBRC     &kp RBKT    &kp LBKT   &kp RBKT
