@@ -135,7 +135,7 @@ layers:
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - {t: ., s: '>'}
+  - {t: ',', s: <}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
