@@ -77,7 +77,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Ctl+ 1, s: Gui+Ctl+ !}
   - {t: Gui+Ctl+ 2, s: Gui+Ctl+ @}
-  - LANG 3
+  - {t: Gui+Ctl+ 3, s: 'Gui+Ctl+ #'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
