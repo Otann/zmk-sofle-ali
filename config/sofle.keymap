@@ -8,10 +8,10 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
-#define U_MS_U &mmv MOVE_UP
-#define U_MS_D &mmv MOVE_DOWN
-#define U_MS_L &mmv MOVE_LEFT
-#define U_MS_R &mmv MOVE_RIGHT
+// #define U_MS_U &mmv MOVE_UP
+// #define U_MS_D &mmv MOVE_DOWN
+// #define U_MS_L &mmv MOVE_LEFT
+// #define U_MS_R &mmv MOVE_RIGHT
 
 #define LANG_SW LA(SPACE)
 #define LANG_1 LG(LC(N1))
@@ -58,7 +58,7 @@
         layer0 {
             bindings = <
 &lt 3 ESC        &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                   &mmv MOVE_UP               &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &lt 3 BSPC
-&mt LALT SPACE   &kp Q      &kp W          &kp E      &kp        &kp T                    &mmv MOVE_DOWN             &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
+&mt LALT SPACE   &kp Q      &kp W          &kp E      &kp R      &kp T                    &mmv MOVE_DOWN             &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
 &mt LCTRL TAB    &kp A      &kp S          &kp D      &kp F      &kp G                    &mmv MOVE_LEFT             &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
 &mt LSHFT GRAVE  &kp Z      &kp X          &kp C      &kp V      &kp B                    &mmv MOVE_RIGHT            &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
 &kp C_MUTE                  &kp BACKSPACE  &mo 2      &kp LCMD   &kp LSHFT   &kp ENTER    &mkp LCLK        &kp RALT  &kp SPACE  &mo 1      &kp ENTER   &kp RSHFT
@@ -70,7 +70,7 @@
 
         layer_1 {
             bindings = <
-&trans   &trans     &trans     &trans     &trans     &trans            &trans              &trans      &trans     &kp LANG_1   &kp LANG_2  &kp LANG_2  &trans
+&trans   &trans     &trans     &trans     &trans     &trans            &trans              &trans      &trans     &kp LANG_1   &kp LANG_2  &kp LANG_3  &trans
 &trans   &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp LT            &trans              &kp GT      &kp UNDER  &kp PLUS     &kp MINUS   &kp EQUAL   &kp DEL 
 &trans   &kp CARET  &kp AMPS   &kp STAR   &kp PRCNT  &kp LPAR          &trans              &kp RPAR    &kp LEFT   &kp DOWN     &kp UP      &kp RIGHT   &trans
 &trans   &kp SLASH  &kp TILDE  &kp PIPE2  &kp QMARK  &kp LBKT          &trans              &kp RBKT    &trans     &kp LBRC     &kp RBRC    &kp BSLH    &trans
