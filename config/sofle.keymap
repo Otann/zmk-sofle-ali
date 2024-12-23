@@ -58,11 +58,11 @@
 
         layer0 {
             bindings = <
-&lt 3 ESC        &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                   &mmv MOVE_UP               &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &lt 3 BSPC
-&mt LALT SPACE   &kp Q      &kp W          &kp E      &kp R      &kp T                    &mmv MOVE_DOWN             &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
-&mt LSHFT TAB    &kp A      &kp S          &kp D      &kp F      &kp G                    &mmv MOVE_LEFT             &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
-&mt LCTRL GRAVE  &kp Z      &kp X          &kp C      &kp V      &kp B                    &mmv MOVE_RIGHT            &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
-&kp C_MUTE                  &kp BACKSPACE  &mo 2      &kp LCMD   &kp LSHFT   &kp ENTER    &mkp LCLK        &kp RALT  &kp SPACE  &mo 1      &kp ENTER   &kp RSHFT
+&lt 3 ESC        &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                      &mmv MOVE_UP                &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &lt 3 BSPC
+&mt LALT ENTER   &kp Q      &kp W          &kp E      &kp R      &kp T                       &mmv MOVE_DOWN              &kp Y      &kp U      &kp I       &kp O            &kp P       &kp BSPC
+&mt LCTRL TAB    &kp A      &kp S          &kp D      &kp F      &kp G                       &mmv MOVE_LEFT              &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
+&mt LSHFT GRAVE  &kp Z      &kp X          &kp C      &kp V      &kp B                       &mmv MOVE_RIGHT             &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
+&kp C_MUTE                  &kp BACKSPACE  &mo 2      &kp LCMD   &kp LSHFT   &mt LALT SPACE  &mkp LCLK        &kp RSHFT  &kp SPACE  &mo 1      &kp ENTER   &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
