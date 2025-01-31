@@ -91,7 +91,7 @@ layers:
   - +
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
