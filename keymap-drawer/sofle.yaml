@@ -78,7 +78,7 @@ layers:
   - {t: Gui+Ctl+1, s: Gui+Ctl+!}
   - {t: Gui+Ctl+2, s: Gui+Ctl+@}
   - {t: Gui+Ctl+3, s: Gui+Ctl+#}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
