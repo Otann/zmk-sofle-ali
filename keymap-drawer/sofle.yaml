@@ -75,9 +75,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
-  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
-  - {t: Gui+Ctl+3, s: Gui+Ctl+#}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
+  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - '~'
@@ -117,7 +117,7 @@ layers:
   - '{'
   - '}'
   - {t: \, s: '|'}
-  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
+  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -132,17 +132,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   raise:
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - $$mdi:play-pause$$
-  - {t: ',', s: <}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
