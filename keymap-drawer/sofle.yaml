@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
+  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - '~'
@@ -117,7 +117,7 @@ layers:
   - '{'
   - '}'
   - {t: \, s: '|'}
-  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
+  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -250,13 +250,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
