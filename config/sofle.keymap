@@ -66,11 +66,11 @@
 
         layer0 {
             bindings = <
-&lt 3 ENTER      &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                      &mmv MOVE_UP                &kp N6     &kp N7     &kp N8      &kp N9           &kp N0      &mo 3
-&mt LALT ESC     &kp Q      &kp W          &kp E      &kp R      &kp T                       &mmv MOVE_DOWN              &kp Y      &kp U      &kp I       &kp O            &kp P       &lt 3 BSPC
-&mt LCTRL TAB    &kp A      &kp S          &kp D      &kp F      &kp G                       &mmv MOVE_LEFT              &kp H      &kp J      &kp K       &kp L            &kp SEMI    &kp APOS
-&mt LSHFT GRAVE  &kp Z      &kp X          &kp C      &kp V      &kp B                       &mmv MOVE_RIGHT             &kp N      &kp M      &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
-&kp C_MUTE                  &kp BSPC       &kp ENTER  &mo 2      &kp LCMD    &kp LSHFT       &mkp LCLK        &kp SPACE  &mo 1      &kp ENTER  &kp LANG_1  &kp LANG_2
+&lt 3 ENTER      &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                      &mmv MOVE_UP                &kp N6     &kp N7       &kp N8      &kp N9           &kp N0      &mo 3
+&mt LALT ESC     &kp Q      &kp W          &kp E      &kp R      &kp T                       &mmv MOVE_DOWN              &kp Y      &kp U        &kp I       &kp O            &kp P       &kp BSPC
+&mt LCTRL TAB    &kp A      &kp S          &kp D      &kp F      &kp G                       &mmv MOVE_LEFT              &kp H      &kp J        &kp K       &kp L            &kp SEMI    &kp APOS
+&mt LSHFT GRAVE  &kp Z      &kp X          &kp C      &kp V      &kp B                       &mmv MOVE_RIGHT             &kp N      &kp M        &kp COMMA   &kp DOT          &kp LBKT    &kp RBKT
+&kp C_MUTE                  &kp BSPC       &kp ENTER  &mo 2      &kp LCMD    &kp LSHFT       &mkp LCLK        &kp SPACE  &mo 1      &lt 3 ENTER  &kp LANG_1  &kp LANG_2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -93,8 +93,8 @@
         layer_2 {
             bindings = <
 &trans     &none       &none       &none      &none        &none                &trans               &none        &none        &none    &none    &none          &trans
-&trans     &kp N1      &kp N2      &kp N3     &kp N4       &kp N5               &trans               &trans       &trans       &trans   &trans   &trans         &kp LA(BSPC)
-&trans     &kp N6      &kp N7      &kp N8     &kp N9       &kp N0               &trans               &trans       &kp LA(LEFT) &trans   &trans   &kp LA(RIGHT)  &trans
+&kp ENTER  &kp N1      &kp N2      &kp N3     &kp N4       &kp N5               &trans               &trans       &trans       &trans   &trans   &trans         &kp LA(BSPC)
+&kp BSPC   &kp N6      &kp N7      &kp N8     &kp N9       &kp N0               &trans               &trans       &kp LA(LEFT) &trans   &trans   &kp LA(RIGHT)  &trans
 &trans     &kp LEFT    &kp UP      &kp DOWN   &kp RIGHT    &kp DOT              &trans               &trans       &trans       &trans   &trans   &trans         &trans
 &kp C_PP               &trans      &trans     &trans       &trans      &trans   &mkp RCLK   &trans   &trans       &trans       &trans   &trans
             >;
