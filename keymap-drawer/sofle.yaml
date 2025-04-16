@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   base:
-  - {t: '$$mdi:keyboard-return$$', h: FN}
+  - FN
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - FN
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -54,8 +54,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - raise
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - lower
   - {t: '$$mdi:keyboard-return$$', h: FN}
-  - {t: Gui+Ctl+1, s: Gui+Ctl+!}
-  - {t: Gui+Ctl+2, s: Gui+Ctl+@}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -113,7 +113,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - '{'
   - '}'
   - {t: \, s: '|'}
@@ -188,11 +188,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FN:
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
-  - {t: Gui+Sft+4, s: Gui+Sft+$}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
