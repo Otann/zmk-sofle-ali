@@ -54,17 +54,17 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - raise
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - lower
   - {t: '$$mdi:keyboard-return$$', h: FN}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -126,8 +126,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   raise:
@@ -185,8 +185,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Sft+4, s: Gui+Sft+$}
   - $$mdi:mouse-right-click-outline$$
@@ -257,6 +257,6 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
